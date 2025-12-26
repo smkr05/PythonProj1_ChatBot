@@ -3,4 +3,11 @@ from langchain_core.prompts import ChatPromptTemplate
 
 model = OllamaLLM(model="llama3.2:1b")
 
+template = """
+
+You are an expert in answering questions about a pizza shop
+Here are some relevant reviews {reviews}
+Here is the question to answer: {question}
+
+"""
 
