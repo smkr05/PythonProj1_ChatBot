@@ -11,3 +11,4 @@ Here is the question to answer: {question}
 
 """
 
+prompt = ChatPromptTemplate(template)
